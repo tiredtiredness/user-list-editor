@@ -1,0 +1,21 @@
+:root {
+  --size-xs: 0.4rem;
+  --size-sm: 0.6rem;
+  --size-md: 1.2rem;
+  --size-lg: 2.4rem;
+  --size-xl: 4rem;
+
+  --min-label-width: 7.8rem;
+  --max-input-width: 100rem;
+  --min-input-base-width: 43rem;
+  --min-input-big-width: 32rem;
+
+  --user-list-width: 39rem;
+
+  --fs-lg: 1.6rem;
+  --fs-sm: 1.4rem;
+
+  --lh-sm: 1.6rem;
+  --lh-md: 2rem;
+  --lh-lg: 2.4rem;
+}

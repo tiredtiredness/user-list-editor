@@ -1,0 +1,10 @@
+.wrapper {
+  border: 1px solid grey;
+  width: var(--user-list-width);
+}
+
+.list {
+  overflow-y: auto;
+  list-style: none;
+  width: 100%;
+}

@@ -1,0 +1,54 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: min-content min-content min-content;
+  grid-template-columns: 16rem 1fr;
+  width: 100%;
+  row-gap: var(--size-md);
+}
+
+.header {
+  padding: var(--size-sm) var(--size-xl);
+  background-color: #c5ecfb;
+  grid-column: span 2;
+}
+
+.imageWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: var(--size-md);
+  align-self: center;
+  justify-self: center;
+}
+
+.imageWrapper::after {
+  content: '';
+  position: absolute;
+  bottom: calc(-1 * var(--size-sm));
+  left: calc(-1 * var(--size-sm));
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 100%;
+  background-color: limegreen;
+}
+
+.image {
+  display: block;
+  position: relative;
+  width: calc(var(--size-xl) * 2);
+  height: calc(var(--size-xl) * 2);
+  border-radius: 100%;
+  outline: var(--size-xs) solid lightgrey;
+  outline-offset: var(--size-xs);
+}
+
+.inputWrapper {
+  padding-top: var(--size-md);
+}
+
+.button {
+  grid-column: span 2;
+  max-width: fit-content;
+  margin-left: var(--size-xl);
+}

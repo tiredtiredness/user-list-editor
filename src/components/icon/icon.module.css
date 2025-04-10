@@ -1,0 +1,9 @@
+.spinner {
+  animation: spin 2s infinite ease-in-out;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

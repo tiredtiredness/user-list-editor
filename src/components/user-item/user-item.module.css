@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  gap: var(--size-xs);
+  padding: var(--size-xs) var(--size-lg);
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.wrapper:hover {
+  cursor: pointer;
+  background-color: #c5ecfb;
+}
+
+.icon {
+  width: calc(var(--size-lg) * 3 / 4);
+  height: calc(var(--size-lg) * 3 / 4);
+}
+
+.name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  overflow: hidden;
+  text-align: left;
+}
